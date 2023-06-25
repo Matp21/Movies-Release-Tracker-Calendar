@@ -18,7 +18,7 @@ Before running the script, ensure you have the following prerequisites:
 - The required Python packages installed. You can install them by running the following command: `pip install -r requirements.txt`
 
 - Obtain a TMDB API key. You can create an account and get an API key from the [TMDB website](https://www.themoviedb.org/documentation/api).
-- Create a Google Calendar and obtain the necessary credentials for the Google Calendar API. Follow the [Google Calendar API documentation](https://developers.google.com/calendar/quickstart/python) to set up your project and generate credentials.
+- Create a Google Calendar and obtain the necessary credentials for the Google Calendar API. Follow the [Google Calendar API documentation](https://developers.google.com/calendar/quickstart/python) to set up your project and generate credentials (put the file "credentials.json" in the same place as the script).
 
 ## Configuration
 
@@ -42,7 +42,7 @@ To use the script:
 
 3. Configure the script by following the "Configuration" section mentioned above.
 
-4. Run the script: `python movies_release_tracker.py` or run `python movies_release_tracker.bat`
+4. Run the script: `python movies_release_tracker.py` or run `run.bat`
 
 The script will retrieve data for the specified companies, check for upcoming releases, and add events to your Google Calendar.
 
