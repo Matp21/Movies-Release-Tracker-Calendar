@@ -25,7 +25,7 @@ companies_id = ["YOUR_COMPANIES_ID_HERE","YOUR_COMPANIES_ID2_HERE"]
 # Define the region ("US","FR",...) for which you want to retrieve release dates and the output language ("us-US" for United-States, "fr-FR" for France...)
 first_region = "US"
 second_region = "FR"
-language = "us-US"
+language = "en-US"
 
 
 def main():
